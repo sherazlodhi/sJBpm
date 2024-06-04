@@ -18,15 +18,19 @@ This image provides a ready-to-run environment for jBPM Workbench. It includes:
 
 2. After the container and web applications start, access them using a user from the "Users and Roles" section. Use the following URL:
 
-   https://brm.sherazlodhi.com/business-central
+<a href="https://brm.sherazlodhi.com/business-central" target="_blank">Business Rule Management</a>
+
 
 4. The Execution server API is accessible at the URL:
 
-   https://brm.sherazlodhi.com/kie-server/docs/
+<a href="https://brm.sherazlodhi.com/kie-server/docs/" target="_blank">KIE Server Documentation</a>
+
+
 
 6. The JBPM case management is available at URL :
   
-   https://brm.sherazlodhi.com/jbpm-casemgmt
+<a href="https://brm.sherazlodhi.com/jbpm-casemgmt" target="_blank">jBPM Case Management</a>
+
 
 **Users and Roles**
 
