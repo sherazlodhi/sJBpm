@@ -1,23 +1,5 @@
 ## jBPM Workbench Showcase Docker Image
 
-**Introduction**
-
-We have moved our Docker images from Docker Hub to Red Hat Quay. Images with versions greater than 7.61.0.Final will only be available on Quay.
-
-**Table of Contents**
-
-* Introduction
-* Usage
-* Users and Roles
-* Database
-* Logging
-* GIT Internal Repository Access
-* Persistent Configuration
-* Environment Variables
-* Experimenting
-* Troubleshooting
-* Notes
-* Release Notes
 
 **Introduction**
 
@@ -36,6 +18,11 @@ docker run -p 8080:8080 -p 8001:8001 -d --name jbpm-server-full jboss/jbpm-serve
 
 2. After the container and web applications start, access them using a user from the "Users and Roles" section. Use the following URL:
 https://brm.sherazlodhi.com/business-central
+
+3. The Execution server API is accessible at
+https://brm.sherazlodhi.com/kie-server/docs/
+4. The JBPM case management is available here
+https://brm.sherazlodhi.com/jbpm-casemgmt
 
 **Users and Roles**
 
