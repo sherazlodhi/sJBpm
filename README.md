@@ -16,11 +16,17 @@ This image provides a ready-to-run environment for jBPM Workbench. It includes:
 
 ` docker run -p 8080:8080 -p 8001:8001 -d --name jbpm-server-full jboss/jbpm-server-full:latest`
 
-2. After the container and web applications start, access them using a user from the "Users and Roles" section. Use the following URL: `https://brm.sherazlodhi.com/business-central`
+2. After the container and web applications start, access them using a user from the "Users and Roles" section. Use the following URL:
 
-4. The Execution server API is accessible at the URL:  `https://brm.sherazlodhi.com/kie-server/docs/`
+   https://brm.sherazlodhi.com/business-central
 
-6. The JBPM case management is available at URL :  `https://brm.sherazlodhi.com/jbpm-casemgmt`
+4. The Execution server API is accessible at the URL:
+
+   https://brm.sherazlodhi.com/kie-server/docs/
+
+6. The JBPM case management is available at URL :
+  
+   https://brm.sherazlodhi.com/jbpm-casemgmt
 
 **Users and Roles**
 
