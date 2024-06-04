@@ -14,13 +14,13 @@ This image provides a ready-to-run environment for jBPM Workbench. It includes:
 
 1. Run a container:
 
-docker run -p 8080:8080 -p 8001:8001 -d --name jbpm-server-full jboss/jbpm-server-full:latest
+` docker run -p 8080:8080 -p 8001:8001 -d --name jbpm-server-full jboss/jbpm-server-full:latest`
 
-2. After the container and web applications start, access them using a user from the "Users and Roles" section. Use the following URL: https://brm.sherazlodhi.com/business-central
+2. After the container and web applications start, access them using a user from the "Users and Roles" section. Use the following URL: `https://brm.sherazlodhi.com/business-central`
 
-4. The Execution server API is accessible at the URL:  https://brm.sherazlodhi.com/kie-server/docs/
+4. The Execution server API is accessible at the URL:  `https://brm.sherazlodhi.com/kie-server/docs/`
 
-6. The JBPM case management is available at URL :  https://brm.sherazlodhi.com/jbpm-casemgmt
+6. The JBPM case management is available at URL :  `https://brm.sherazlodhi.com/jbpm-casemgmt`
 
 **Users and Roles**
 
@@ -43,12 +43,12 @@ This image supports H2, MySQL, and PostgreSQL databases. By default, it uses H2 
 
 * MySQL:
 
-docker-compose -f docker-compose-examples/jbpm-full-mysql.yml up
+`docker-compose -f docker-compose-examples/jbpm-full-mysql.yml up`
 
 
 * PostgreSQL:
 
-docker-compose -f docker-compose-examples/jbpm-full-postgres.yml up
+`docker-compose -f docker-compose-examples/jbpm-full-postgres.yml up`
 
 
 **Environment Variables**
@@ -64,12 +64,12 @@ docker-compose -f docker-compose-examples/jbpm-full-postgres.yml up
 
 * View logs from the standalone binary:
 
-docker logs [-f] <container_id>
+`docker logs [-f] <container_id>`
 
 
 * Attach to the container:
 
-docker attach <container_id>
+`docker attach <container_id>`
 
 
 * Web application logs are located at `/opt/jboss/wildfly/standalone/log/server.log` inside the container.
@@ -80,7 +80,7 @@ The workbench stores projects in an internal Git repository accessible via SSH o
 
 **Example: Cloning the IT_Orders Sample Project**
 
-git clone ssh://wbadmin@localhost:8001/MySpace/IT_Orders
+`git clone ssh://wbadmin@localhost:8001/MySpace/IT_Orders`
 
 
 **Persistent Configuration**
@@ -89,7 +89,7 @@ By default, Docker removes container data on removal. To create a persistent env
 
 **Using Default GIT Root Directory**
 
-docker run -p 8080:8080 -p 8001:8001 -v /home/myuser/wb_git:/opt/jboss/wildfly/bin/.niogit:Z -d --name jbpm-server-full jboss/jbpm-server-full:latest
+`docker run -p 8080:8080 -p 8001:8001 -v /home/myuser/wb_git:/opt/jboss/wildfly/bin/.niogit:Z -d --name jbpm-server-full jboss/jbpm-server-full:latest`
 
 
 **Custom GIT Repository Location**
