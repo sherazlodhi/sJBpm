@@ -3,7 +3,7 @@
 
 **Introduction**
 
-This image provides a ready-to-run environment for jBPM Workbench. It includes:
+This deployment provides an environment for jBPM Workbench. It includes:
 
 * JBoss Wildfly 23.0.2.Final
 * jBPM Workbench 7.74.1.Final
